@@ -4,8 +4,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: black;
-    color: white;
+    background-color:rgb(58, 56, 56, 0.8);
+    /* opacity: 2; */
+    border-radius: 10px;
+    /* color: white; */
 }
 .left-container{
     width: 100%;
@@ -28,9 +30,20 @@
 
 .left-home{
     text-decoration: none;
-    color: beige;
+    color: rgb(159, 159, 89);
 }
 .right-about{
     text-decoration: none;
-    color: beige;
+    color: rgb(159, 159, 89);
+}
+
+.left-home:hover{
+    text-decoration:underline ;
+    color: lightslategrey;
+    transform: rotateZ(10deg);
+}
+.right-about:hover{
+    text-decoration:underline ;
+    color: lightslategrey;
+    transition-duration: calc(1s + 1ms / 4);
 }
