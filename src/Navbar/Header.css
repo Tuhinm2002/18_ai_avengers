@@ -1,0 +1,36 @@
+.nav-bar{
+    height: 4rem;
+    border: 2px solid rgb(157, 240, 132);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+.left-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.home{
+    margin-left: 2rem;
+    cursor: pointer;
+    font-size: x-large;
+    font-weight: 900;
+}
+.about{
+    margin-right: 2rem;
+    cursor: pointer;
+    font-size: x-large;
+    font-weight: 900;
+}
+
+.left-home{
+    text-decoration: none;
+    color: beige;
+}
+.right-about{
+    text-decoration: none;
+    color: beige;
+}
