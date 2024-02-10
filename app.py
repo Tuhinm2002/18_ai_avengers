@@ -8,7 +8,10 @@ from dotenv import load_dotenv
 from llama_index import ServiceContext,set_global_service_context
 from streamlit_extras.stylable_container import stylable_container
 
-st.markdown("""### Smart evaluator """)
+with open("app.css") as source_des:
+    st.markdown(f"<style>{source_des.read()}</style>",unsafe_allow_html=True)
+
+st.markdown("""### Smart evaluator here """,unsafe_allow_html=True)
 def configure():
     load_dotenv()
 
@@ -17,7 +20,9 @@ configure()
 with stylable_container(
     key="navbar",
     css_styles="""
-    
+      div[data-testid="stDecoration"]{
+        color:red
+      }
     """
 ):
     side_bar = st.sidebar.selectbox(
@@ -39,7 +44,7 @@ if side_bar == "Home":
         with stylable_container(
             key="input_area",
             css_styles="""
-            
+                 color: yellow;
             """
         ):
             inp = st.text_input("input")
@@ -81,10 +86,10 @@ if side_bar == "Home":
     except:
         pass
 elif side_bar == "About us":
-    st.write(""" About us""")
+    st.write(""" this is About us""")
 
 st.write("\n")
-st.write("\n")
+st.write("\n") 
 st.write("\n")
 st.write("\n")
 st.write("\n")
