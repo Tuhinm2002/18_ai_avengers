@@ -1,5 +1,11 @@
 span.st-emotion-cache-10trblm.e1nzilvr1{
     color: rgb(0, 255, 47);
-    border: 5px solid red; 
+    border: 2px solid red; 
     border-radius: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    letter-spacing: 5px;
+    cursor: pointer;
 }
