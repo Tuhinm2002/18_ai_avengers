@@ -1,9 +1,33 @@
 span.st-emotion-cache-10trblm.e1nzilvr1{
     color: black;
-    border: 5px solid rgb(81, 255, 0);
+    border: 5px solid rgb(10, 250, 58);
     border-radius: 35px;
     font-size: 50px;
     text-align: center;
-    background-color: rgb(136, 183, 224);
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
+}
+
+
+span.st-emotion-cache-9ycgxx.e1b2p2ww12{
+    font-size: 15px;
+}
+
+div.st-emotion-cache-sh2krr.e1nzilvr5 p{
+    font-size: 20px;
+}
+
+button.st-emotion-cache-19rxjzo.ef3psqc12{
+    background-color: antiquewhite;
+    color: black;
+    border: 3px solid rgba(250, 250, 250, 0.2);
+}
+
+.st-emotion-cache-19rxjzo.ef3psqc12:hover{
+    border: 3px solid red;
+}
+
+.st-emotion-cache-1fttcpj.e1b2p2ww11:hover{
+    opacity: 0.8;
 }
