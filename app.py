@@ -11,7 +11,7 @@ from streamlit_extras.stylable_container import stylable_container
 with open("app.css") as source_des:
     st.markdown(f"<style>{source_des.read()}</style>",unsafe_allow_html=True)
 
-st.markdown("""### Smart evaluator here """,unsafe_allow_html=True)
+st.markdown("""### Smart evaluator here """,unsafe_allow_html=False)
 def configure():
     load_dotenv()
 
